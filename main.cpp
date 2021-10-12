@@ -2,7 +2,7 @@
 #include "Stats.h"
 
 int main() {
-    std::unique_ptr<Stats> stats(new Stats(16));
+    std::unique_ptr<Stats> stats(new Stats(19000));
 
     stats->push(12);
     stats->push(3.187);
